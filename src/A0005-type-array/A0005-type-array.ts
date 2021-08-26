@@ -11,5 +11,8 @@ export function concatenaString(...args: string[]): string {
 const result = multiplicaArgs(1, 2, 3);
 const concatenacao = concatenaString('a', 'b', 'c');
 
+const array: readonly string[] = ['Luiz', 'Otavio'];
+const array2: ReadonlyArray<string> = ['Luiz', 'Otavio'];
+
 console.log(result);
 console.log(concatenacao);
